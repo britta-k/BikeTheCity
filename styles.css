@@ -1,0 +1,19 @@
+body {
+   font-family: ; 
+}
+
+header {
+
+}
+
+footer {
+    background-color: #5E8F70;
+    height: 148px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Anek Latin;
+    font-size: 45px;
+    font-weight: 400;
+}
