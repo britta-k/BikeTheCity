@@ -8,23 +8,27 @@ async function getSwedishUniversities() {
 
       const universityNames = data.map(university => {
         const randomNumber = Math.floor(Math.random() * 50) + 1;
-        return `${university.name}; Bikes: ${randomNumber}`;
+        return {
+            name: university.name,
+            bikes: randomNumber
+          };
       });
-      
+
       console.log('Swedish University Names:', universityNames);
     
-      const randomNumber = Math.floor(Math.random() * 50) + 1;
-      const SwedishUniversities = document.querySelector("#SwedishUniversities");
+      const SwedishUniversities = document.querySelector(".SwedishUniversities");
 
       SwedishUniversities.innerHTML = 
-            `<div id="SwedishUniversities">
-                <h1>University campuses with BikeTheCity</h1>
+            `<div class="SwedishUniversities">
                 <ul>
-                    <li> ${universityNames.map(
-                        item => `<li>${item}</li>`).join("")}
-                    </li>
+                ${universityNames.map(item => `
+                    <li id="${item.bikes <= 10 ? 'low-bikes' : ''}">${item.name}
+                    <ul>
+                        <li id="bikeNumber">Bikes: ${item.bikes}</li>
+                    </ul>
+                    </li>`).join("")}
                 </ul>
-            </div>`
+            </div>`;
   }
 
  
