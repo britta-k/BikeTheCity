@@ -16,6 +16,13 @@ h2 {
     font-weight: 600;
 }
 
+h3 {
+    font-size: 20px;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 50px; 
+}
+
 p {
     font-size: 25px;
 }
@@ -79,8 +86,9 @@ header {
 footer {
     background-color: #435F78;
     height: 195px;
-    position: absolute;
+    
     width: 100%;
+    clear: both;
 }
 
 .logoFooter {
@@ -200,4 +208,38 @@ footer {
     border: none;
     font-weight: 400;
     width: 75%;
+}
+
+/********ABOUT********/
+
+#aboutSection {
+    margin-bottom: 50px;
+}
+
+.leftColumnText {
+    float: left;
+    width: 550px;
+    height: 600px;
+    margin-left: 100px;
+}
+
+.rightColumnPicture {
+    float: right;
+    margin-right: 100px;
+    margin-top: 75px;
+    height: 600px;
+}
+
+.rightColumnText {
+    float: right;
+    width: 550px;
+    height: 600px;
+    margin-right: 100px;
+}
+
+.leftColumnPicture {
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    height: 600px;
 }
