@@ -1,5 +1,5 @@
 body {
-   font-family: ; 
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -13,7 +13,10 @@ footer {
 
 h1 {
     text-align: center;
-    font-family: Anek Latin;
     font-size: 45px;
     font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
 }
