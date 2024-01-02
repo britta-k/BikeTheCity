@@ -8,39 +8,46 @@
     </head>
     <body>
         <header>
-            <div class = "logoMain"></div>
-            <nav>
-                <a href="join.html">join</a>
-                <a href="campus.html">bikes on campus</a>
-                <a href="about.html">about</a>
-                <a href="contact.html">contact</a>
+            <div class = "logoHeader">
+                <a href="index.html"><img src="Images/logoBlue.png" alt="logo"></a>
+            </div>
+            <nav class = "navigation">
+                <ul>
+                    <li><a href="join.html">join</a></li>
+                    <li><a href="campus.html">bikes on campus</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
             </nav>
         </header>
         
         <section class = "sectionMain">
-            <div>
-                <img src="" alt="">
-                <h1>bike the city</h1>
-            </div>
-            <section class = "sectionGreenEasyShared">
-                <div>
+            <div id = "bannerBikeTheCity"></div>
+            <div class="row">
+                <div class = "column">
                     <h1>green.</h1>
-                    <img src="Images/earth.jpg" alt="">
-                    <p>Arcu bibendum at varius vel. In mollis nunc sed id semper risus. Tellus mauris a diam maecenas sed enim ut sem. Laoreet suspendisse interdum consectetur libero id.</p>
+                    <figure>
+                        <img src="Images/earth.jpg" alt="">
+                        <figcaption>Navigate your university campus with a green twist! Our eco-friendly bike rentals for students not only offer convenient transportation but also contribute to a sustainable campus environment. Choose pedal power for a carbon-neutral commute, embrace the fresh air, and ride confidently towards a greener future, right in the heart of campus life.</figcaption>
+                    </figure>
                 </div>
-                <div>
+                <div class = "column">
                     <h1>easy.</h1>
-                    <img src="Images/card.jpg" alt="">
-                    <p>Ut ornare lectus sit amet est. Sit amet nulla facilisi morbi. Arcu odio ut sem nulla pharetra. Est lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                    <figure>
+                        <img src="Images/card.png" alt="">
+                        <figcaption>Experience campus mobility like never before! Our bike rental service, tailored for university students, ensures easy access with just a swipe of your card. With numerous rental spots conveniently scattered across campus, you can seamlessly grab a bike, swipe, and ride, unlocking a world of effortless exploration right at your fingertips.</figcaption>
+                    </figure>
                 </div>
-                <div>
+                <div class = "column">
                     <h1>shared.</h1>
-                    <img src="Images/recycle.jpg" alt="">
-                    <p>Non pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus. Scelerisque eleifend donec pretium vulputate. </p>
+                    <figure>
+                        <img src="Images/recycle.jpg" alt="">
+                        <figcaption>"Promoting community, our bike rental program for university students isn't just about shared wheels; it's a shared experience. Embrace the camaraderie as you pedal through campus together, fostering a tight-knit community while enjoying the convenience and eco-friendly benefits of our shared bikes.</figcaption>
+                    </figure>
                 </div>
-            </section>
-            <div class = "button">
-                <a href="">join</a>
+            </div>
+            <div class = "joinButton">
+                <a href="join.html" class = "button">join</a>
             </div>
         </section>
 
@@ -53,8 +60,10 @@
         </div>
 
         <footer>
-            <p></p>
-            <div class = "logoMain"></div>
+            <p class = "pFooter">© 2024 CityBike</p>
+            <div class = "logoFooter">
+                <img src="Images/logoWhite.png" alt="">
+            </div>
         </footer>
     </body>
 </html>

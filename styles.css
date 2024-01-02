@@ -1,14 +1,6 @@
 body {
    font-family: "Anek Latin";
-}
-
-header {
-
-}
-
-footer {
-    background-color: #5E8F70;
-    height: 148px;
+   color: #435F78;
 }
 
 h1 {
@@ -17,6 +9,111 @@ h1 {
     font-weight: 400;
 }
 
+p {
+    font-size: 25px;
+}
+
+figcaption {
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    margin-top: 50px;
+}
+
 ul {
     list-style-type: none;
+}
+
+/*button*/
+
+.button {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #435F78;
+    border-radius: 15px;
+    padding: 20px 75px 20px;
+    text-align: center;
+}
+
+/********HEADER********/
+
+header {
+    height: 195px;
+}
+
+.logoHeader {
+    float: left;
+    margin-left: 20px;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 40px;
+    padding-top: 65px;
+}
+
+a:link, a:visited {
+    font-size: 25px;
+    color: #435F78;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F1962D;
+    border-color: #F1962D;
+}
+
+/********FOOTER********/
+
+footer {
+    background-color: #435F78;
+    height: 195px;
+}
+
+.logoFooter {
+    float: right;
+    margin-right: 20px;
+}
+
+.pFooter {
+    color: #FFFFFD;
+    float: left;
+    margin-left: 40px;
+    padding-top: 110px;
+}
+
+/********HOME PAGE********/
+
+#bannerBikeTheCity {
+    background-image: url("Images/bannerBikeTheCity.png");
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+  }
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.row:after { /*******vaata üle*******/
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.joinButton {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 50px;
 }
