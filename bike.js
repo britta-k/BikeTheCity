@@ -31,7 +31,10 @@ async function getSwedishUniversities() {
             </div>`;
   }
 
- 
+  function showConfirmation() {
+    alert("Order confirmation and receipt have been sent to your email. Welcome to CityBike Community!");
+}
+
 
 
   

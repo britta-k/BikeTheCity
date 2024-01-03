@@ -21,7 +21,70 @@
             </nav>
         </header> 
 
-        <section></section>
+        <section id="joinSection">
+            <h1>Join CityBike Community</h1>
+            
+            <div class="joinCard">
+                <div>
+                    <img src="Images/cardBlue.png" alt="blue card">
+                </div>
+                <div>
+                    <img src="Images/cardLightBlue.png" alt="light blue card">
+                </div>
+                <div>
+                    <img src="Images/cardOrange.png" alt="orange card">
+                </div>
+            </div>
+
+            <div class="joinForm">
+                <form action="" onsubmit="showConfirmation()">
+                    <div>
+                        <p>What is your?</p>
+                        <label for="name">First name</label>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="lastName">Last name</label>
+                        <input type="text" id="lastName" name="lastName" required><br>
+                        <label for="university">University</label>
+                        <input type="text" id="university" name="university" required><br>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" required><br>
+                        <label for="address">Address*</label>
+                        <input type="text" id="address" name="address" required><br>
+                        <p class="formNote">*This address will be used for delivery</p>
+                    </div>
+                    <div>
+                        <p>Card color</p>
+                        <input type="radio" name="color" id="blue" value="blue" required>
+                        <label for="blue">blue</label><br>
+                        <input type="radio" name="color" id="lightBlue" value="lightBlue" required>
+                        <label for="lightBlue">light blue</label><br>
+                        <input type="radio" name="color" id="orange" value="orange" required>
+                        <label for="orange">orange</label>
+                    </div>
+                    <div>
+                        <p>Ticket</p>
+                        <label>Add ticket</label><br>
+                        <input type="radio" name="ticket" id="one" value="one" required>
+                        <label for="one">1 day (3€)</label><br>
+                        <input type="radio" name="ticket" id="thirdy" value="thirdy" required>
+                        <label for="thirdy">30 days (35€)</label><br>
+                        <input type="radio" name="ticket" id="year" value="year" required>
+                        <label for="year">1 year (120€)</label><br><br>
+                    </div>
+                    <div>
+                        <label>Ticket type</label><br>
+                        <input type="radio" name="type" id="regular" value="regular" required>
+                        <label for="regular">regular</label><br>
+                        <input type="radio" name="type" id="discount" value="discount" required>
+                        <label for="discount">discount* (-20%)</label>
+                        <p class="formNote">*Discount is valid for ISIC card holders</p>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </section>
 
         <footer>
             <p class = "pFooter">© 2024 CityBike</p>
