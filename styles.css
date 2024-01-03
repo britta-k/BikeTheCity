@@ -143,7 +143,7 @@ footer {
 
 .bannerSecondary {
     background-color: #B0C3D4;
-    height: 450px;
+    height: 500px;
 }
 
 .bannerSecondaryText {
@@ -277,7 +277,6 @@ input[type=text] {
 
 .joinCard {
     float: left;
-    margin-top: 50px;
     margin-left: 200px
 }
 
