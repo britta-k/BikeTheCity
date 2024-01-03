@@ -256,6 +256,7 @@ input[type=submit] {
     background-color: white;
     font-size: 15px;
     color: #435F78;
+    font-family: "Anek Latin";
 }
 
 input[type=text] {
@@ -282,4 +283,37 @@ input[type=text] {
 
 .joinCard img {
     padding: 5px;
+}
+
+/********CONTACT********/
+
+#contactSection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#contactSection img {
+    margin-bottom: 20px;
+}
+
+#contactSection p {
+    margin: 5px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+.quote {
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.employee {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+    width: 30%;
+    display: inline-block;
 }
