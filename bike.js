@@ -1,4 +1,3 @@
-getSwedishUniversities();
 
 async function getSwedishUniversities() {
       const response = await fetch("http://universities.hipolabs.com/search?country=Sweden");
