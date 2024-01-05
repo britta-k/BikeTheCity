@@ -85,8 +85,7 @@ header {
 
 footer {
     background-color: #435F78;
-    height: 195px;
-    
+    height: 195px; 
     width: 100%;
     clear: both;
 }
@@ -143,14 +142,13 @@ footer {
 
 .bannerSecondary {
     background-color: #B0C3D4;
-    height: 500px;
+    width: 100%;
+    padding: 50px;
 }
 
 .bannerSecondaryText {
     text-align: left;
     width: 50%;
-    padding-top: 50px;
-    padding-left: 50px;
 }
 
 .bannerSecondaryText p {
