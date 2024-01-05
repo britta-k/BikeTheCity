@@ -1,3 +1,6 @@
+
+/********GENERAL CSS ACROSS PAGES*******/
+
 body {
    font-family: "Anek Latin";
    color: #435F78;
@@ -60,7 +63,7 @@ a:hover {
     border-color: #F1962D;
 }
 
-/********HEADER********/
+/********header********/
 
 header {
     height: 195px;
@@ -81,7 +84,24 @@ header {
     padding-top: 65px;
 }
 
-/********FOOTER********/
+/********secondary header********/
+
+.bannerSecondary {
+    background-color: #B0C3D4;
+    width: 100%;
+    padding: 50px;
+}
+
+.bannerSecondaryText {
+    text-align: left;
+    width: 50%;
+}
+
+.bannerSecondaryText p {
+    margin-bottom: 50px;
+}
+
+/********footer********/
 
 footer {
     background-color: #435F78;
@@ -104,10 +124,6 @@ footer {
 
 /********HOME PAGE********/
 
-#campusSection {
-    margin-bottom: 50px;
-}
-
 #bannerBikeTheCity {
     background-image: url("Images/bannerBikeTheCity.png");
     background-size: cover;
@@ -126,7 +142,7 @@ footer {
     margin-bottom: 50px;
 }
 
-.row:after { /*******vaata üle*******/
+.row:after { 
     content: "";
     display: table;
     clear: both;
@@ -140,18 +156,7 @@ footer {
 
 /********CAMPUS PAGE********/
 
-.bannerSecondary {
-    background-color: #B0C3D4;
-    width: 100%;
-    padding: 50px;
-}
-
-.bannerSecondaryText {
-    text-align: left;
-    width: 50%;
-}
-
-.bannerSecondaryText p {
+#campusSection {
     margin-bottom: 50px;
 }
 
@@ -208,24 +213,7 @@ footer {
     width: 75%;
 }
 
-/********ABOUT********/
-
-.aboutDiv {
-    width: 75%;
-    text-align: center;
-    margin: auto;
-    padding-top: 50px;
-}
-
-#bikesDiv {
-    padding-top: 100px;
-}
-
-#aboutSection {
-    margin-bottom: 100px;
-}
-
-/********JOIN********/
+/********JOIN PAGE********/
 
 input[type=submit] {
     border-style: solid;
@@ -265,7 +253,24 @@ input[type=text] {
     padding: 5px;
 }
 
-/********CONTACT********/
+/********ABOUT PAGE********/
+
+.aboutDiv {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#bikesDiv {
+    padding-top: 100px;
+}
+
+#aboutSection {
+    margin-bottom: 100px;
+}
+
+/********CONTACT PAGE********/
 
 #contactSection {
     text-align: center;
