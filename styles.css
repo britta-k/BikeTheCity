@@ -212,78 +212,19 @@ footer {
 
 /********ABOUT********/
 
-/*#aboutSection {
-    margin-bottom: 50px;
+.aboutDiv {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
 }
 
-.leftColumnText {
-    float: left;
-    width: 550px;
-    height: 600px;
-    margin-left: 100px;
+#bikesDiv {
+    padding-top: 100px;
 }
 
-.rightColumnPicture {
-    float: right;
-    margin-right: 100px;
-    margin-top: 75px;
-    height: 600px;
-}
-
-.rightColumnText {
-    float: right;
-    width: 550px;
-    height: 600px;
-    margin-right: 100px;
-}
-
-.leftColumnPicture {
-    float: left;
-    margin-left: 100px;
-    margin-top: 75px;
-    height: 600px;
-} */
-
-.leftColumnText,
-.rightColumnText {
-    width: 550px;
-    height: 600px;
-}
-
-.rightColumnPicture,
-.leftColumnPicture {
-    height: 600px;
-}
-
-.leftColumnText {
-    float: left;
-    margin-left: 100px;
-}
-
-.rightColumnPicture,
-.rightColumnText {
-    float: right;
-    margin-right: 100px;
-    margin-top: 75px;
-}
-
-.leftColumnPicture {
-    float: left;
-    margin-left: 100px;
-    margin-top: 75px;
-}
-
-/* For smaller screens */
-@media screen and (max-width: 768px) {
-    .leftColumnText,
-    .rightColumnText,
-    .rightColumnPicture,
-    .leftColumnPicture {
-        width: auto;
-        float: none;
-        margin: 0;
-        height: auto;
-    }
+#aboutSection {
+    margin-bottom: 100px;
 }
 
 /********JOIN********/
@@ -329,8 +270,8 @@ input[type=text] {
 /********CONTACT********/
 
 #contactSection {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    text-align: center;
+    margin: auto;
 }
 
 #contactSection img {
@@ -355,6 +296,6 @@ input[type=text] {
     text-align: center;
     margin: 20px;
     margin-bottom: 50px;
-    width: 30%;
+    width: 28%;
     display: inline-block;
 }
