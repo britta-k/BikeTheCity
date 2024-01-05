@@ -212,13 +212,13 @@ footer {
 
 /********ABOUT********/
 
-#aboutSection {
+/*#aboutSection {
     margin-bottom: 50px;
 }
 
 .leftColumnText {
     float: left;
-    width: 50%;
+    width: 550px;
     height: 600px;
     margin-left: 100px;
 }
@@ -232,7 +232,7 @@ footer {
 
 .rightColumnText {
     float: right;
-    width: 50%;
+    width: 550px;
     height: 600px;
     margin-right: 100px;
 }
@@ -242,6 +242,48 @@ footer {
     margin-left: 100px;
     margin-top: 75px;
     height: 600px;
+} */
+
+.leftColumnText,
+.rightColumnText {
+    width: 550px;
+    height: 600px;
+}
+
+.rightColumnPicture,
+.leftColumnPicture {
+    height: 600px;
+}
+
+.leftColumnText {
+    float: left;
+    margin-left: 100px;
+}
+
+.rightColumnPicture,
+.rightColumnText {
+    float: right;
+    margin-right: 100px;
+    margin-top: 75px;
+}
+
+.leftColumnPicture {
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+    .leftColumnText,
+    .rightColumnText,
+    .rightColumnPicture,
+    .leftColumnPicture {
+        width: auto;
+        float: none;
+        margin: 0;
+        height: auto;
+    }
 }
 
 /********JOIN********/
