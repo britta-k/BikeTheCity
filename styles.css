@@ -218,7 +218,7 @@ footer {
 
 .leftColumnText {
     float: left;
-    width: 550px;
+    width: 50%;
     height: 600px;
     margin-left: 100px;
 }
@@ -232,7 +232,7 @@ footer {
 
 .rightColumnText {
     float: right;
-    width: 550px;
+    width: 50%;
     height: 600px;
     margin-right: 100px;
 }
