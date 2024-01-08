@@ -28,7 +28,7 @@ async function getSwedishUniversities() {
                     <ul>
                         <li id="bikeNumber">Bikes: ${item.bikes}</li>
                     </ul>
-                    </li>`).join("")}
+                    </li>`).join("")} 
                 </ul>
             </div>`;
   }
