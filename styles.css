@@ -298,7 +298,4 @@ input[type=text] {
 .employee {
     text-align: center;
     margin: 20px;
-    margin-bottom: 50px;
-    width: 28%;
-    display: inline-block;
 }
