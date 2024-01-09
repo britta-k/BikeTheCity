@@ -39,6 +39,20 @@ async function getSwedishUniversities() {
     alert("Order confirmation and receipt have been sent to your email. Welcome to CityBike Community!");
 }
 
+//Navigation bar
+
+const burgerIcon = document.getElementById("burgerIcon");
+const navElement = document.querySelector(".navigation");
+
+burgerIcon.addEventListener("click", function () {
+    navElement.classList.toggle("display");
+
+    if (burgerIcon.alt === "burger menu icon") {
+        burgerIcon.alt = "close icon";
+    } else {
+        burgerIcon.alt = "burger menu icon";
+    }
+});
 
 
   

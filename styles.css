@@ -74,6 +74,12 @@ header {
     margin-left: 20px;
 }
 
+/********navigation********/
+
+#burgerIcon {
+    display: none;
+}
+
 .navigation {
     float: right;
 }
@@ -82,6 +88,30 @@ header {
     display: inline-block;
     padding: 40px;
     padding-top: 65px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #burgerIcon {
+        display: block;
+        float: right;
+        padding: 20px;
+    }
+
+    .navigation {
+        display: none;
+    }
+}
+
+.display {
+    display: block;
+    background-color: #B0C3D4;
+    margin-top: 150px;
+    position: absolute;
+    right: 0;
+}
+
+.display li {
+    display: block;
 }
 
 /********secondary header********/
