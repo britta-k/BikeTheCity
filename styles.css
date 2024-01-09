@@ -203,6 +203,12 @@ footer {
     column-gap: 5px; 
   }
 
+@media only screen and (max-width: 1000px) {
+    .SwedishUniversities ul {
+        columns: 1;
+    }
+}
+
 #low-bikes ul li {
     background-color: #F7CA95;
   }
